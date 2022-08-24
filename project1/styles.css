@@ -84,3 +84,8 @@
   margin-top: 5px;
   margin-left: 11px;
 }
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
