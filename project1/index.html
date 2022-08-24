@@ -6,8 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      table,
+      th,
+      td {
+        border: 2px solid#3263a8;
+      }
+    </style>
   </head>
   <body>
-    <p>This is my first project on GitHub</p>
+    <div class="main">
+      <div class="slika">
+        <img src="slika.png" />
+      </div>
+      <div class="info">
+        <h2 class="ime">Davud Carovac</h2>
+        <p class="text">
+      Zovem se Davud Carovac. Zivim u Novom Pazaru. Idem u srednju ekonomsku skolu.Imam 17 godina.  
+          Poceo sam da ucim HTML i CSS. Volim da igram
+          fudbal i igrice u slobodno vreme.
+        </p>
+      </div>
+    </div>
+    <div class="main2">
+      <h1 class="naslov">Raspored casova</h1>
+      <div>
+        <table class="tabela">
+          <tr>
+            <th></th>
+            <th>Ponedeljak</th>
+            <th>Utorak</th>
+            <th>Sreda</th>
+            <th>Cetvrtak</th>
+            <th>Petak</th>
+          </tr>
+          <tr>
+            <td>Muhamed</td>
+            <td rowspan="2">HTML & CSS</td>
+            <td></td>
+            <td>HTML & CSS</td>
+            <td></td>
+            <td>HTML & CSS</td>
+          </tr>
+          <tr>
+            <td>Dzenan</td>
+            <td></td>
+            <td>JavaScript</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Faris</td>
+            <td colspan="2">ReactJ</td>
+            <td></td>
+            <td></td>
+            <td>React</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+      <div>
+        <h3 class="omiljenahrana">Omiljena hrana:</h3>
+      </div>
+      <div>
+        <ul class="lista2">
+          <li>Pizza</li>
+          <li>Crispy piletina</li>
+          <li>Tortilja</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

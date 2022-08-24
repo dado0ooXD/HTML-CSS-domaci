@@ -1,4 +1,86 @@
-.body {
-  background-color: aqua;
-  color: red;
+.main {
+  width: 80%;
+  margin: auto;
+  height: 225px;
+  background-color: gray;
+  border: 2px solid #3263a8;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.slika {
+  height: 130px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 45px;
+  margin-top: 20px;
+  padding: 12px;
+  border: 2px solid #3263a8;
+  border-radius: 10px;
+}
+
+.info {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.ime {
+  width: 80%;
+  display: inline-block;
+  margin: 0;
+  font-size: 40px;
+  color: #3263a8;
+}
+
+.text {
+  width: 110%;
+  margin: 0;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.main2 {
+  width: 80%;
+  margin: auto;
+  height: 320 px;
+  background-color: gray;
+  border: 2px solid #3263a8;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.naslov {
+  font-size: 40px;
+  display: inline-block;
+  color: #3263a8;
+  margin-left: 25px;
+  margin-bottom: 0px;
+}
+
+.tabela {
+  width: 95%;
+  border: 1px solid#3263a8;
+
+  text-align: center;
+  margin-bottom: 8px;
+  margin-left: 25px;
+}
+
+.omiljenahrana {
+  font-size: 25px;
+  display: inline-block;
+  color: #3263a8;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.lista2 {
+  color: #3263a8;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 11px;
 }
