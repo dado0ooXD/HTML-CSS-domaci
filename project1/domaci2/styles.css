@@ -1,0 +1,104 @@
+.container {
+  height: 600px;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.prvi {
+  width: 100%;
+  height: 200px;
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.card {
+  width: 375px;
+  height: 430px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+}
+
+.content {
+  margin-left: 25px;
+  margin-top: 25px;
+  height: 120px;
+  font-family: arial;
+}
+
+.category {
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: lightgray;
+}
+
+.naslov {
+  margin-top: 3px;
+  font-size: 22px;
+}
+
+.text {
+  margin-top: 0px;
+  width: 95%;
+}
+
+.donjideo {
+  margin-left: 0px;
+  margin-top: 0px;
+  color: gray;
+  font-size: 15px;
+}
+
+.strelica {
+  display: inline-block;
+  margin-left: 5px;
+  color: #6366f1;
+}
+
+.learnmore {
+  font-size: 20px;
+  color: gray;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.oko {
+  margin-left: 110px;
+  font-size: 15px;
+  border-right: 3px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.comment {
+  margin-left: 18px;
+}
+
+.drugi {
+  display: inline-block;
+  border-right: 2px solid gray;
+  margin: 0;
+  padding-right: 14px;
+}
+
+.bojateksta {
+  color: #6366f1;
+  font-size: 18px;
+}
+
+.donjideo2 {
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: arial;
+}
+
+.gornjidiv {
+  font-size: 40px;
+}
