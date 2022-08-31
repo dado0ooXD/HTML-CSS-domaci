@@ -1,0 +1,151 @@
+* body {
+  background-color: #4877fb;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: arial;
+}
+
+.header {
+  height: 80px;
+  background-color: #4877fb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 40px 60px;
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  margin-right: 60px;
+}
+
+li {
+  padding: 10px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+
+  padding: 7px;
+  color: white;
+}
+
+a:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+a:active {
+  background-color: white;
+  color: gray;
+}
+
+.content {
+  height: 550px;
+  background-color: #4877fb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.text {
+  margin-left: 60px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h2 {
+  color: white;
+  font-size: 52px;
+  margin-bottom: 10px;
+  width: 88%;
+}
+
+.p2 {
+  width: 88%;
+  color: lightgray;
+  margin-top: 0;
+}
+.drugilink {
+  width: 26%;
+  background-color: lightgray;
+  border-radius: 30px;
+  padding: 15px 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+img {
+  height: 350px;
+  width: 500px;
+}
+
+.slika {
+  margin-right: 60px;
+}
+
+.footer {
+  height: 700px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 330px;
+  width: 350px;
+  margin: 0;
+  border: 2px solid;
+  border-radius: 6px;
+}
+
+.rightdots {
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.text1 {
+  margin-left: 30px;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: arial;
+  margin-top: 25px;
+}
+
+.p3 {
+  margin-top: 0px;
+  font-family: arial;
+  margin-right: 10px;
+  color: gray;
+}
+
+.donjastrelica {
+  margin: 30px;
+  font-size: 50px;
+  color: gray;
+}
+
+.icon {
+  color: #4877fb;
+}
