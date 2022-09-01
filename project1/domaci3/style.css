@@ -92,13 +92,20 @@ h2 {
   font-size: 15px;
 }
 
-img {
+.drugilink:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+iframe {
   height: 350px;
   width: 500px;
 }
 
 .slika {
   margin-right: 60px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
