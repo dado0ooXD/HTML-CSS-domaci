@@ -92,11 +92,6 @@ h2 {
   font-size: 15px;
 }
 
-.drugilink:hover {
-  background-color: lightgray;
-  color: white;
-}
-
 iframe {
   height: 350px;
   width: 500px;
