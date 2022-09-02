@@ -96,6 +96,10 @@ iframe {
   height: 350px;
   width: 500px;
 }
+.drugilink:hover {
+  background-color: lightgray;
+  color: white;
+}
 
 .slika {
   margin-right: 60px;
