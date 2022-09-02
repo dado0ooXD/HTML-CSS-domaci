@@ -5,7 +5,7 @@
   background-color: gray;
   border: 2px solid #3263a8;
   border-radius: 15px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .slika {
@@ -44,7 +44,7 @@
 .main2 {
   width: 80%;
   margin: auto;
-  height: 320 px;
+  height: 320px;
   background-color: gray;
   border: 2px solid #3263a8;
   border-radius: 15px;
@@ -62,7 +62,6 @@
 .tabela {
   width: 95%;
   border: 1px solid#3263a8;
-
   text-align: center;
   margin-bottom: 8px;
   margin-left: 25px;
